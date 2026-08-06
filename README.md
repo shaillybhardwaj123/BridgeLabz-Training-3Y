@@ -1,12 +1,12 @@
-# BridgeLabz Training – GitHub Repository Structure Guidelines
+# BridgeLabz – Personal Progress Tracker
 
-This repository defines the standard GitHub repository structure, branch naming conventions, and commit message guidelines that all learners should follow while submitting practice programs, assignments, and coding exercises during training.
+This is my personal repository tracking my learning progress, hands-on practice, reviews, and assignments under **BridgeLabz**. It documents my web development journey following the structured guidelines provided by the company.
 
 ---
 
 ## Repository Directory Structure
 
-The training folders are located inside the nested **[BridgeLabz-Training-3Y](file:///c:/Users/hp/OneDrive/Desktop/BridgeLabz-Training-3Y/BridgeLabz-Training-3Y)** directory:
+The repository folders are located inside the nested **[BridgeLabz-Training-3Y](file:///c:/Users/hp/OneDrive/Desktop/BridgeLabz-Training-3Y/BridgeLabz-Training-3Y)** directory:
 
 ```text
 BridgeLabz-Training-3Y/
@@ -75,7 +75,7 @@ BridgeLabz-Training-3Y/
 
 ### 1. [HTML Practice](file:///c:/Users/hp/OneDrive/Desktop/BridgeLabz-Training-3Y/BridgeLabz-Training-3Y/html-practice)
 Focuses on fundamental HTML concepts.
-- **[gcr-codebase](file:///c:/Users/hp/OneDrive/Desktop/BridgeLabz-Training-3Y/BridgeLabz-Training-3Y/html-practice/gcr-codebase)**: Guided Coding Resources (GCR) codebase containing step-by-step topics.
+- **[gcr-codebase](file:///c:/Users/hp/OneDrive/Desktop/BridgeLabz-Training-3Y/BridgeLabz-Training-3Y/html-practice/gcr-codebase)**: Google Classroom Reference codebase containing step-by-step topics.
 - **[practice-codebase](file:///c:/Users/hp/OneDrive/Desktop/BridgeLabz-Training-3Y/BridgeLabz-Training-3Y/html-practice/practice-codebase)**: Personal experiments and classroom practice codes.
 
 ### 2. [CSS Practice](file:///c:/Users/hp/OneDrive/Desktop/BridgeLabz-Training-3Y/BridgeLabz-Training-3Y/css-practice)
@@ -93,13 +93,13 @@ Challenges and projects designed to consolidate concepts.
 - **[story-based-problems](file:///c:/Users/hp/OneDrive/Desktop/BridgeLabz-Training-3Y/BridgeLabz-Training-3Y/revision-problems/story-based-problems)**: Problems wrapped in scenario narratives.
 - **[ui-challenges](file:///c:/Users/hp/OneDrive/Desktop/BridgeLabz-Training-3Y/BridgeLabz-Training-3Y/revision-problems/ui-challenges)**: Recreating specific web designs and layouts.
 - **[mini-projects](file:///c:/Users/hp/OneDrive/Desktop/BridgeLabz-Training-3Y/BridgeLabz-Training-3Y/revision-problems/mini-projects)**: Lightweight end-to-end applications.
-- **[assignments](file:///c:/Users/hp/OneDrive/Desktop/BridgeLabz-Training-3Y/BridgeLabz-Training-3Y/revision-problems/assignments)**: Official training assignment submissions.
+- **[assignments](file:///c:/Users/hp/OneDrive/Desktop/BridgeLabz-Training-3Y/BridgeLabz-Training-3Y/revision-problems/assignments)**: Official assignment submissions.
 
 ### 5. [Reviews](file:///c:/Users/hp/OneDrive/Desktop/BridgeLabz-Training-3Y/BridgeLabz-Training-3Y/reviews)
 Mentor feedback, assessments, and tracking logs.
 - **[weekly-reviews](file:///c:/Users/hp/OneDrive/Desktop/BridgeLabz-Training-3Y/BridgeLabz-Training-3Y/reviews/weekly-reviews)**: Review submissions and notes.
 - **[mentor-feedback](file:///c:/Users/hp/OneDrive/Desktop/BridgeLabz-Training-3Y/BridgeLabz-Training-3Y/reviews/mentor-feedback)**: Comments and action items given by mentors.
-- **[self-assessments](file:///c:/Users/hp/OneDrive/Desktop/BridgeLabz-Training-3Y/BridgeLabz-Training-3Y/reviews/self-assessments)**: Personal reflections on training milestones.
+- **[self-assessments](file:///c:/Users/hp/OneDrive/Desktop/BridgeLabz-Training-3Y/BridgeLabz-Training-3Y/reviews/self-assessments)**: Personal reflections on key milestones.
 - **[progress-tracker](file:///c:/Users/hp/OneDrive/Desktop/BridgeLabz-Training-3Y/BridgeLabz-Training-3Y/reviews/progress-tracker)**: Logs tracking course coverage and hours.
 
 ---
@@ -121,5 +121,3 @@ Mentor feedback, assessments, and tracking logs.
   - Mentor Feedback
   - Performance Reports
   - Progress Tracking Documents
-
-

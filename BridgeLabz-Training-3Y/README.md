@@ -1,6 +1,6 @@
-# BridgeLabz Training – GitHub Repository Structure Guidelines
+# BridgeLabz – Personal Progress Tracker
 
-This repository follows a standardized structure for submitting practice programs, assignments, and coding exercises during training. Maintaining a consistent structure helps mentors review code efficiently and ensures better project organization.
+This is my personal repository tracking my learning progress, hands-on practice, reviews, and assignments under **BridgeLabz**. It documents my web development journey following the structured guidelines provided by the company.
 
 ## Repository Directory Structure
 
@@ -86,14 +86,14 @@ Challenges and projects designed to consolidate concepts.
 - **[story-based-problems](file:///c:/Users/hp/OneDrive/Desktop/BridgeLabz-Training-3Y/BridgeLabz-Training-3Y/revision-problems/story-based-problems)**: Problems wrapped in scenario narratives.
 - **[ui-challenges](file:///c:/Users/hp/OneDrive/Desktop/BridgeLabz-Training-3Y/BridgeLabz-Training-3Y/revision-problems/ui-challenges)**: Recreating specific web designs and layouts.
 - **[mini-projects](file:///c:/Users/hp/OneDrive/Desktop/BridgeLabz-Training-3Y/BridgeLabz-Training-3Y/revision-problems/mini-projects)**: Lightweight end-to-end applications.
-- **[assignments](file:///c:/Users/hp/OneDrive/Desktop/BridgeLabz-Training-3Y/BridgeLabz-Training-3Y/revision-problems/assignments)**: Official training assignment submissions.
+- **[assignments](file:///c:/Users/hp/OneDrive/Desktop/BridgeLabz-Training-3Y/BridgeLabz-Training-3Y/revision-problems/assignments)**: Official assignment submissions.
 
 ### 5. [Reviews](file:///c:/Users/hp/OneDrive/Desktop/BridgeLabz-Training-3Y/BridgeLabz-Training-3Y/reviews)
 Mentor feedback, assessments, and tracking logs.
 - **[weekly-reviews](file:///c:/Users/hp/OneDrive/Desktop/BridgeLabz-Training-3Y/BridgeLabz-Training-3Y/reviews/weekly-reviews)**: Review submissions and notes.
 - **[mentor-feedback](file:///c:/Users/hp/OneDrive/Desktop/BridgeLabz-Training-3Y/BridgeLabz-Training-3Y/reviews/mentor-feedback)**: Comments and action items given by mentors.
-- **[self-assessments](file:///c:/Users/hp/OneDrive/Desktop/BridgeLabz-Training-3Y/reviews/self-assessments)**: Personal reflections on training milestones.
-- **[progress-tracker](file:///c:/Users/hp/OneDrive/Desktop/BridgeLabz-Training-3Y/reviews/progress-tracker)**: Logs tracking course coverage and hours.
+- **[self-assessments](file:///c:/Users/hp/OneDrive/Desktop/BridgeLabz-Training-3Y/BridgeLabz-Training-3Y/reviews/self-assessments)**: Personal reflections on key milestones.
+- **[progress-tracker](file:///c:/Users/hp/OneDrive/Desktop/BridgeLabz-Training-3Y/BridgeLabz-Training-3Y/reviews/progress-tracker)**: Logs tracking course coverage and hours.
 
 ---
 
