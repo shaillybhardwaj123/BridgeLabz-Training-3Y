@@ -91,6 +91,26 @@ Challenges and projects designed to consolidate concepts.
 ### 5. [Reviews](file:///c:/Users/hp/OneDrive/Desktop/BridgeLabz-Training-3Y/BridgeLabz-Training-3Y/reviews)
 Mentor feedback, assessments, and tracking logs.
 - **[weekly-reviews](file:///c:/Users/hp/OneDrive/Desktop/BridgeLabz-Training-3Y/BridgeLabz-Training-3Y/reviews/weekly-reviews)**: Review submissions and notes.
-- **[mentor-feedback](file:///c:/Users/hp/OneDrive/Desktop/BridgeLabz-Training-3Y/reviews/mentor-feedback)**: Comments and action items given by mentors.
+- **[mentor-feedback](file:///c:/Users/hp/OneDrive/Desktop/BridgeLabz-Training-3Y/BridgeLabz-Training-3Y/reviews/mentor-feedback)**: Comments and action items given by mentors.
 - **[self-assessments](file:///c:/Users/hp/OneDrive/Desktop/BridgeLabz-Training-3Y/reviews/self-assessments)**: Personal reflections on training milestones.
 - **[progress-tracker](file:///c:/Users/hp/OneDrive/Desktop/BridgeLabz-Training-3Y/reviews/progress-tracker)**: Logs tracking course coverage and hours.
+
+---
+
+## Branch Naming Convention
+
+### Frontend Practice Branch
+- **`html-practice`**
+- **`css-practice`**
+- **`bootstrap-practice`**
+- **`revision-problems`**
+- **`reviews`**
+
+### Reviews Branch
+- **Branch Name**: `reviews`
+- **Purpose**: Store the following documents:
+  - Weekly Reviews
+  - Self-Assessments
+  - Mentor Feedback
+  - Performance Reports
+  - Progress Tracking Documents
