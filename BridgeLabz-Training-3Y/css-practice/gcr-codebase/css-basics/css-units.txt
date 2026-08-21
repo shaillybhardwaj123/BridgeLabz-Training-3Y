@@ -1,0 +1,13 @@
+units:
+
+%
+vh
+vw
+px
+em = em*10 by default 16
+rem
+
+ques 1 what is the difference between ppi and dpi
+ques 2 what is the differnce between physical pixel vs logical pixel
+ques 3 value of 1 pixel 
+ques 4 padding mai em apply ku ni hota hai
