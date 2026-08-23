@@ -9,5 +9,36 @@ rem
 
 ques 1 what is the difference between ppi and dpi
 ques 2 what is the differnce between physical pixel vs logical pixel
-ques 3 value of 1 pixel 
+ques 3 value of 1 pixel in inch cm 
 ques 4 padding mai em apply ku ni hota hai
+
+
+Here are the short, clear answers:
+
+---
+
+### **Q1: PPI vs DPI**
+* **PPI (Pixels Per Inch):** The density of **digital pixels** on a screen (monitors, phones). Higher PPI means a sharper screen.
+* **DPI (Dots Per Inch):** The density of physical **ink dots** printed on paper by a printer.
+
+---
+
+### **Q2: Physical Pixel vs Logical Pixel**
+* **Physical Pixel:** The actual hardware light dot on a screen. 
+* **Logical Pixel (CSS Pixel):** A unit of measurement in code.
+  * *Example:* On high-resolution screens (like Retina), **1 Logical Pixel** in your CSS might map to **4 Physical Pixels** ($2 \times 2$) to keep layout sizes readable instead of tiny.
+
+---
+
+### **Q3: Value of 1 CSS Pixel in Inch and Cm**
+By standard CSS definition ($96\text{px} = 1\text{ inch}$):
+* **In Inches:** $1\text{px} = \frac{1}{96}\text{ inch} \approx 0.0104\text{ inches}$
+* **In Centimeters:** $1\text{px} \approx 0.0264\text{ cm}$ (or $0.264\text{ mm}$)
+
+---
+
+### **Q4: Why is `em` tricky/avoided for Padding?**
+You *can* apply `em` to padding, but it behaves differently:
+* **Relative to itself:** When used on `padding`, `1em` is relative to the **element’s own font-size**, not the parent's.
+* **The Problem:** If you change the element's `font-size`, its padding will automatically change too. This makes spacing inconsistent across different elements.
+* **Solution:** Use **`rem`** instead. `rem` is relative to the root (`<html>` font size), so it keeps your spacing consistent everywhere.
