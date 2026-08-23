@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+    <defs>
+        <linearGradient id="sunset" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#fdba74" />
+            <stop offset="50%" stop-color="#f97316" />
+            <stop offset="100%" stop-color="#7c2d12" />
+        </linearGradient>
+    </defs>
+    <!-- Background Sky -->
+    <rect width="800" height="600" fill="url(#sunset)" />
+    <!-- Sun -->
+    <circle cx="400" cy="300" r="120" fill="#fef08a" opacity="0.8" filter="blur(5px)" />
+    <!-- Pagoda Silhouette -->
+    <g fill="#1c0a00" opacity="0.95">
+        <!-- Base structure -->
+        <rect x="360" y="500" width="80" height="100" />
+        <!-- Level 1 Roof -->
+        <path d="M310 500 L490 500 L450 470 L350 470 Z" />
+        <!-- Level 2 Body -->
+        <rect x="370" y="420" width="60" height="50" />
+        <!-- Level 2 Roof -->
+        <path d="M320 420 L480 420 L440 390 L360 390 Z" />
+        <!-- Level 3 Body -->
+        <rect x="375" y="340" width="50" height="50" />
+        <!-- Level 3 Roof -->
+        <path d="M330 340 L470 340 L430 310 L370 310 Z" />
+        <!-- Level 4 Body -->
+        <rect x="380" y="270" width="40" height="40" />
+        <!-- Level 4 Roof -->
+        <path d="M340 270 L460 270 L420 240 L380 240 Z" />
+        <!-- Top Spire -->
+        <rect x="397" y="150" width="6" height="90" />
+        <!-- Spire rings -->
+        <circle cx="400" cy="180" r="8" />
+        <circle cx="400" cy="195" r="10" />
+        <circle cx="400" cy="210" r="12" />
+    </g>
+    <!-- Foreground Mountains & Trees Silhouette -->
+    <path d="M0 600 L0 520 Q 200 480 400 530 T 800 500 L 800 600 Z" fill="#0f0500" />
+</svg>

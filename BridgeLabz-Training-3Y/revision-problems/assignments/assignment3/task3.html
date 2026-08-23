@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Registration Form</title>
+</head>
+
+<body>
+    <header>
+        <h1>Academic Course Registration</h1>
+        <p>Fill out the form below to enroll in your desired technical training course.</p>
+    </header>
+
+    <hr>
+
+    <main>
+        <!-- Course Registration Form -->
+        <form action="#" method="post">
+            <fieldset>
+                <legend><strong>Student Enrollment Details</strong></legend>
+                
+                <p>
+                    <label for="student-name">Full Name:</label><br>
+                    <input type="text" id="student-name" name="student_name" placeholder="Enter your full name" required>
+                </p>
+
+                <p>
+                    <label for="student-email">Email Address:</label><br>
+                    <input type="email" id="student-email" name="student_email" placeholder="name@example.com" required>
+                </p>
+
+                <p>
+                    <label for="select-course">Select Course:</label><br>
+                    <select id="select-course" name="selected_course" required>
+                        <option value="">-- Choose a Course --</option>
+                        <option value="web-dev">Introduction to Web Development</option>
+                        <option value="ds-algo">Data Structures &amp; Algorithms</option>
+                        <option value="dbms">Database Management Systems</option>
+                        <option value="cloud-computing">Introduction to Cloud Computing</option>
+                    </select>
+                </p>
+
+                <p>
+                    <input type="submit" value="Register Now">
+                    <input type="reset" value="Clear Form">
+                </p>
+            </fieldset>
+        </form>
+
+        <br>
+        <hr>
+        <br>
+
+        <!-- Course Schedule Table -->
+        <h2>Available Course Schedules</h2>
+        <table border="1" cellpadding="8" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Course Name</th>
+                    <th>Day</th>
+                    <th>Time</th>
+                    <th>Instructor</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Introduction to Web Development</td>
+                    <td>Monday &amp; Wednesday</td>
+                    <td>10:00 AM - 12:00 PM</td>
+                    <td>Dr. Rajesh Sharma</td>
+                </tr>
+                <tr>
+                    <td>Data Structures &amp; Algorithms</td>
+                    <td>Tuesday &amp; Thursday</td>
+                    <td>02:00 PM - 04:00 PM</td>
+                    <td>Prof. Amit Kumar</td>
+                </tr>
+                <tr>
+                    <td>Database Management Systems</td>
+                    <td>Friday</td>
+                    <td>09:00 AM - 12:00 PM</td>
+                    <td>Ms. Priya Nair</td>
+                </tr>
+                <tr>
+                    <td>Introduction to Cloud Computing</td>
+                    <td>Saturday</td>
+                    <td>01:00 PM - 04:00 PM</td>
+                    <td>Mr. Rohan Deshmukh</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>Need help? Contact the registration office at registration@university.edu</p>
+    </footer>
+</body>
+
+</html>
