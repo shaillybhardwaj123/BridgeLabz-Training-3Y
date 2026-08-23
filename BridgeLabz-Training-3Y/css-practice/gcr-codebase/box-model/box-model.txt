@@ -1,0 +1,34 @@
+box model
+
+content > padding > border > margin
+
+padding= top right bottom left
+
+
+
+ques1 span tag mai height width
+ques2 box size border box ku hota hai
+
+
+
+Here is a quick summary with the essential CSS rules:
+
+### **1. Make height/width work on `<span>`**
+By default, `<span>` is inline and ignores width/height. Change its display type:
+```css
+span {
+  display: inline-block; /* Allows width & height while staying inline */
+  width: 100px;
+  height: 50px;
+}
+```
+
+### **2. Why use `border-box`?**
+It includes padding and borders inside the element's total width and height, preventing layout breakage.
+
+Apply it globally to all elements:
+```css
+* {
+  box-sizing: border-box;
+}
+```
