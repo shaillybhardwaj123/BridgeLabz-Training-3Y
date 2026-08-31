@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Selection Page</title>
+</head>
+
+<body>
+    <header>
+        <h1>Destination Preference Selector</h1>
+        <p>Select your location preferences and see your summary below.</p>
+    </header>
+
+    <hr>
+
+    <main>
+        <form action="#" method="get">
+            <!-- Country Dropdown -->
+            <p>
+                <label for="select-country">Select Country:</label><br>
+                <select id="select-country" name="country">
+                    <option value="usa">United States of America</option>
+                    <option value="india" selected>India</option>
+                    <option value="japan">Japan</option>
+                    <option value="uk">United Kingdom</option>
+                </select>
+            </p>
+
+            <!-- State Dropdown -->
+            <p>
+                <label for="select-state">Select State:</label><br>
+                <select id="select-state" name="state">
+                    <option value="maharashtra">Maharashtra</option>
+                    <option value="uttar-pradesh" selected>Uttar Pradesh</option>
+                    <option value="delhi">Delhi</option>
+                    <option value="karnataka">Karnataka</option>
+                </select>
+            </p>
+
+            <!-- City Dropdown -->
+            <p>
+                <label for="select-city">Select City:</label><br>
+                <select id="select-city" name="city">
+                    <option value="agra" selected>Agra</option>
+                    <option value="lucknow">Lucknow</option>
+                    <option value="noida">Noida</option>
+                    <option value="mathura">Mathura</option>
+                </select>
+            </p>
+
+            <!-- Favorite Tourist Place Dropdown -->
+            <p>
+                <label for="select-place">Favorite Tourist Place:</label><br>
+                <select id="select-place" name="tourist_place">
+                    <option value="taj-mahal" selected>Taj Mahal</option>
+                    <option value="agra-fort">Agra Fort</option>
+                    <option value="fatehpur-sikri">Fatehpur Sikri</option>
+                    <option value="mehtab-bagh">Mehtab Bagh</option>
+                </select>
+            </p>
+        </form>
+
+        <br>
+        <hr>
+        <br>
+
+        <!-- Summary Paragraph -->
+        <h2>Your Selected Destination</h2>
+        <p>
+            You have selected <strong>India</strong> as your country, located in the state of <strong>Uttar Pradesh</strong>. 
+            Your chosen city is <strong>Agra</strong>, and your absolute favorite tourist spot to visit there is the historic 
+            <strong>Taj Mahal</strong>, one of the wonders of the world!
+        </p>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>Database compiled by Tourism Department &copy; 2026</p>
+    </footer>
+</body>
+
+</html>
