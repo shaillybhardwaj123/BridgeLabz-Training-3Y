@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="100%" height="100%">
+    <defs>
+        <radialGradient id="spaceGrad" cx="50%" cy="50%" r="70%">
+            <stop offset="0%" stop-color="#1e1b4b" />
+            <stop offset="60%" stop-color="#0f172a" />
+            <stop offset="100%" stop-color="#020617" />
+        </radialGradient>
+        <radialGradient id="nebulaPurple" cx="30%" cy="40%" r="40%">
+            <stop offset="0%" stop-color="#c084fc" stop-opacity="0.35" />
+            <stop offset="100%" stop-color="#c084fc" stop-opacity="0" />
+        </radialGradient>
+        <radialGradient id="nebulaBlue" cx="70%" cy="60%" r="50%">
+            <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.25" />
+            <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+        </radialGradient>
+    </defs>
+    <!-- Background -->
+    <rect width="1600" height="900" fill="url(#spaceGrad)" />
+    <!-- Nebulae -->
+    <rect width="1600" height="900" fill="url(#nebulaPurple)" />
+    <rect width="1600" height="900" fill="url(#nebulaBlue)" />
+    <!-- Stars -->
+    <g fill="#ffffff" opacity="0.8">
+        <circle cx="200" cy="150" r="1.5" />
+        <circle cx="250" cy="450" r="1" />
+        <circle cx="500" cy="200" r="2" />
+        <circle cx="650" cy="750" r="1" />
+        <circle cx="800" cy="300" r="1.5" />
+        <circle cx="950" cy="100" r="2" />
+        <circle cx="1100" cy="650" r="1" />
+        <circle cx="1300" cy="500" r="2" />
+        <circle cx="1450" cy="250" r="1.5" />
+        <circle cx="1500" cy="800" r="2.5" />
+    </g>
+    <!-- Glowing planet -->
+    <circle cx="1200" cy="250" r="100" fill="#a78bfa" opacity="0.9" />
+    <circle cx="1200" cy="250" r="110" fill="none" stroke="#c084fc" stroke-width="2" opacity="0.3" />
+</svg>

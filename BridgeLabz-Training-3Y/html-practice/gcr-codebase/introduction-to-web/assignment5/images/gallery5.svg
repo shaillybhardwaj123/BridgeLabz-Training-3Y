@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+    <defs>
+        <linearGradient id="desert-sky" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#fdba74" />
+            <stop offset="100%" stop-color="#fed7aa" />
+        </linearGradient>
+        <linearGradient id="dune-color" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#ca8a04" />
+            <stop offset="100%" stop-color="#854d0e" />
+        </linearGradient>
+    </defs>
+    <rect width="400" height="300" fill="url(#desert-sky)" />
+    <!-- Sun -->
+    <circle cx="300" cy="100" r="30" fill="#fef08a" />
+    <!-- Dunes -->
+    <path d="M0 240 Q 150 180 300 230 T 400 200 L 400 300 L 0 300 Z" fill="url(#dune-color)" />
+    <path d="M0 270 Q 100 230 250 260 T 400 250 L 400 300 L 0 300 Z" fill="#a16207" opacity="0.9" />
+</svg>

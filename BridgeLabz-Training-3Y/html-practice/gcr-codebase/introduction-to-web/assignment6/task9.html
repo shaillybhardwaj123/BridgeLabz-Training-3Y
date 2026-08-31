@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Specify character encoding -->
+    <meta charset="UTF-8">
+    <!-- Viewport for mobile optimization -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>Task 9 - Document File Upload Form</title>
+</head>
+
+<body>
+    <!-- Page Header -->
+    <header>
+        <h1>File Upload Portal</h1>
+        <p>Use this form to submit your files to our server.</p>
+    </header>
+
+    <hr>
+
+    <!-- File Upload Form Section -->
+    <main>
+        <!-- 
+            File upload forms must use:
+            - method="POST"
+            - enctype="multipart/form-data" 
+            This allows the browser to split and encode binary data for transport.
+        -->
+        <form action="#" method="POST" enctype="multipart/form-data">
+            <fieldset>
+                <legend>Upload Image Document</legend>
+
+                <!-- File Input Control -->
+                <p>
+                    <label for="imageUpload">Select File to Upload:</label><br><br>
+                    <input type="file" id="imageUpload" name="userImage" accept=".jpg, .jpeg, .png" required>
+                </p>
+
+                <!-- Information Note -->
+                <p>
+                    <strong>Note:</strong> Only <code>.jpg</code>, <code>.jpeg</code>, and <code>.png</code> files are allowed. Other file formats will be automatically filtered out.
+                </p>
+
+                <!-- Submit Button -->
+                <p>
+                    <button type="submit">Upload File</button>
+                </p>
+            </fieldset>
+        </form>
+    </main>
+
+    <hr>
+
+    <!-- Footer Area -->
+    <footer>
+        <p>&copy; 2026 Shailly Bhardwaj - Assignment 6 Task 9</p>
+    </footer>
+</body>
+
+</html>

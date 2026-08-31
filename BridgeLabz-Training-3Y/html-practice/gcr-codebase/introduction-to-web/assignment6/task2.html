@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Set character encoding for the document -->
+    <meta charset="UTF-8">
+    <!-- Viewport setting for responsiveness -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Page Title -->
+    <title>Task 2 - Google Map Embedding</title>
+</head>
+
+<body>
+    <!-- Main Header -->
+    <header>
+        <h1>Google Map Embedding</h1>
+        <p>This page embeds a Google Map with lazy loading enabled.</p>
+    </header>
+
+    <hr>
+
+    <!-- Content Section -->
+    <main>
+        <h2>Map of Mathura, Uttar Pradesh, India</h2>
+
+        <!-- 
+            Explanation of the loading attribute:
+            The loading="lazy" attribute tells the browser to defer loading the iframe content until it is close to the viewport.
+            This improves initial page loading performance, reduces initial bandwidth usage, and optimizes overall rendering speed.
+        -->
+        <!-- Google Map Iframe -->
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113042.87103185365!2d77.59685324335938!3d27.4812836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397371177651a5dd%3A0x6b8eb7c5690b2b8c!2sMathura%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
+            title="Google Map of Mathura" 
+            width="600" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </main>
+
+    <hr>
+
+    <!-- Footer containing copyright -->
+    <footer>
+        <p>&copy; 2026 Shailly Bhardwaj - Assignment 6 Task 2</p>
+    </footer>
+</body>
+
+</html>
