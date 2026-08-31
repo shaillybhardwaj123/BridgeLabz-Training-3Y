@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Specify character encoding -->
+    <meta charset="UTF-8">
+    <!-- Viewport for mobile optimization -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>Task 16 - URI Encoding Demonstration</title>
+</head>
+
+<body>
+    <!-- Page Header -->
+    <header>
+        <h1>URI Encoding Demonstration</h1>
+        <p>This page explains and demonstrates URI (Uniform Resource Identifier) character encoding in hyperlinks.</p>
+    </header>
+
+    <hr>
+
+    <!-- Main Content Area -->
+    <main>
+        <h2>Encoding Special Characters in URLs</h2>
+        <p>
+            URIs only support a subset of ASCII characters. Special characters like spaces, ampersands, or slashes have syntactical 
+            meanings or are not allowed. To pass them safely in query strings, they must be percent-encoded:
+        </p>
+        
+        <ul>
+            <li>Space character ( ) is encoded as <strong>%20</strong></li>
+            <li>Ampersand character (&amp;) is encoded as <strong>%26</strong></li>
+        </ul>
+
+        <hr>
+
+        <!-- Unencoded Version (Display only to prevent invalid href routing issues) -->
+        <h3>1. Unencoded Raw URL</h3>
+        <p>
+            Raw String: <code>https://example.com/search?query=HTML &amp; CSS</code><br>
+            <em>Note: Browsers might truncate or misinterpret this link because of the spaces and raw ampersand.</em>
+        </p>
+
+        <!-- Encoded Version Hyperlink -->
+        <h3>2. Correctly Encoded URL Hyperlink</h3>
+        <p>
+            Encoded String: <code>https://example.com/search?query=HTML%20%26%20CSS</code><br>
+            <!-- 
+                Hyperlink using correct percent-encoded URI attributes.
+                Spaces -> %20
+                & -> %26
+            -->
+            Click here: <a href="https://example.com/search?query=HTML%20%26%20CSS" target="_blank">Search for HTML &amp; CSS</a>
+        </p>
+    </main>
+
+    <hr>
+
+    <!-- Footer Area -->
+    <footer>
+        <p>&copy; 2026 Shailly Bhardwaj - Assignment 6 Task 16</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Task 4 - Frameset Layout</title>
+</head>
+
+<!-- Frameset layout split vertically into two frames: Top (20% height) and Bottom (80% height) -->
+<frameset rows="20%,80%">
+    <!-- Top frame loading navigation links -->
+    <frame src="task4_nav.html" name="navFrame" scrolling="no" noresize>
+    <!-- Bottom frame loading welcome content -->
+    <frame src="task4_welcome.html" name="welcomeFrame">
+    
+    <!-- Fallback content for browsers that do not support framesets -->
+    <noframes>
+        <body>
+            <h1>Frameset Layout</h1>
+            <p>Your browser does not support frames. Please navigate using the links below:</p>
+            <ul>
+                <li><a href="task4_nav.html">Navigation</a></li>
+                <li><a href="task4_welcome.html">Welcome Page</a></li>
+            </ul>
+        </body>
+    </noframes>
+</frameset>
+
+</html>

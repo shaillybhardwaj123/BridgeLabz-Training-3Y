@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Specify character encoding -->
+    <meta charset="UTF-8">
+    <!-- Viewport for mobile optimization -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>Task 18 - Quotations and Entities</title>
+</head>
+
+<body>
+    <!-- Page Header -->
+    <header>
+        <h1>HTML Quotations and Entities</h1>
+        <p>This page demonstrates block quotations, inline short quotations, and special character entities.</p>
+    </header>
+
+    <hr>
+
+    <!-- Main Content Area -->
+    <main>
+        <h2>Short Inline Quotations</h2>
+        <!-- 
+            Short quotes:
+            The <q> tag is used for inline short quotes. Modern browsers automatically surround 
+            content inside <q> tags with double quotation marks.
+        -->
+        <p>
+            Tim Berners-Lee, the inventor of the World Wide Web, once noted: 
+            <q>The Web is more a social creation than a technical one. I designed it for a social effect &amp; to help people work together.</q> 
+            Notice how the browser renders the inline short quote with automatic quotes, and the ampersand entity <code>&amp;amp;</code> renders as a literal ampersand.
+        </p>
+
+        <br>
+
+        <h2>Long Block Quotations</h2>
+        <!-- 
+            Long quotes:
+            The <blockquote> tag represents a section that is quoted from another source. 
+            Browsers typically display this block indented from the surrounding paragraph text.
+        -->
+        <p>
+            Here is a blockquote demonstrating a long definition of HTML standards:
+        </p>
+        <blockquote cite="https://www.w3.org/standards/">
+            &quot;The HTML specification defines the HyperText Markup Language, the core language of the World Wide Web. 
+            It is designed to organize text documents, create links between media elements, build input forms, and 
+            establish a semantic outline for machines &lt;and&gt; human readers alike. Adhering to standards ensures 
+            universal web interoperability.&quot;
+        </blockquote>
+
+        <p>
+            In the blockquote above, the entities <code>&amp;quot;</code> and <code>&amp;lt;and&amp;gt;</code> 
+            were utilized to output quotes and tags correctly inside standard text.
+        </p>
+    </main>
+
+    <hr>
+
+    <!-- Footer Area -->
+    <footer>
+        <p>&copy; 2026 Shailly Bhardwaj - Assignment 6 Task 18</p>
+    </footer>
+</body>
+
+</html>
